@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NestLand</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/iconsax-style.css">
+    <link rel="stylesheet" href="assets/css/iconly.css">
+    <link rel="stylesheet" href="assets/css/lity.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body class="nla_demo_one">
+
+<div class="preloader" id="preloader">
+    <svg viewBox="0 0 1920 1080" preserveAspectRatio="none" version="1.1">
+        <path d="M0,0 C305.333333,0 625.333333,0 960,0 C1294.66667,0 1614.66667,0 1920,0 L1920,1080 C1614.66667,1080 1294.66667,1080 960,1080 C625.333333,1080 305.333333,1080 0,1080 L0,0 Z"></path>
+    </svg>
+    <div class="inner">
+        <canvas class="progress-bar" id="progress-bar" width="200" height="200"></canvas>
+        <figure><img src="assets/images/preloder.svg" alt="Image"></figure>
+        <small>Loading</small>
+    </div>
+    <!-- end inner -->
+</div>
+<!-- end preloder -->
+
+<!-- Header Section Start -->
+<!-- Header Start -->
+<div class="smooth-scroll" data-scroll-container>
+    <div class="section-wrapper" data-scroll-section>
+        <header>
+            <div class="nl-main-header bg-white pt-25 pb-35">
+                <div class="container container-1290">
+                    <div class="row align-items-center">
+                        <div class="col-4 col-lg-2">
+                            <div class="nl-logo">
+                                <a href="index.html">
+                                    <img src="assets/images/logov2.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div
+                                class="col-8 col-lg-8 d-flex align-items-center justify-content-lg-center justify-content-end">
+                            <!-- <nav class="nl-navmenu text-center ps-xl-5 ul-li d-none d-lg-block">
+                                <ul>
+                                    <li class="has-submenu">
+                                        <a href="javascript:void(0)">Home</a>
+                                        <ul class="submenu-wrapper">
+                                            <li><a href="index.html">Home 1</a></li>
+                                            <li><a href="index2.html">Home 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li class="has-submenu">
+                                        <a href="javascript:void(0)">Project</a>
+                                        <ul class="submenu-wrapper">
+                                            <li><a href="project.html">Projects</a></li>
+                                            <li>
+                                                <a href="project-details.html">Project Details</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-submenu">
+                                        <a href="javascript:void(0)">Services</a>
+                                        <ul class="submenu-wrapper">
+                                            <li><a href="service.html">Services</a></li>
+                                            <li>
+                                                <a href="service-details.html">Service Details</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-submenu">
+                                        <a href="javascript:void(0)">Pages</a>
+                                        <ul class="submenu-wrapper">
+                                            <li><a href="faq.html">Faq</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-submenu">
+                                        <a href="javascript:void(0)">Blog</a>
+                                        <ul class="submenu-wrapper">
+                                            <li><a href="blog.html">Blog List</a></li>
+                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </nav> -->
+                            <button
+                                    type="button"
+                                    class="header-toggle offcanvus-toggle d-none">
+                                <span class="offcanvas_border_one"></span>
+                                <span></span>
+                            </button>
+                            <button
+                                    type="button"
+                                    class="header-toggle mobile-menu-toggle d-lg-none">
+                                <span class="offcanvas_border_one"></span>
+                                <span></span>
+                            </button>
+                        </div>
+                        <div class="col-2 col-lg-2 d-none d-lg-block">
+                            <div class="nl-icon-box d-flex justify-content-end gap-3">
+                                <div class="nl-icon-box_icon">
+                                    <i
+                                            class="nl-icon nl-icon-call nl-fs-16 nl-fw-500 nl-color-white pl-20 pr-20 pt-20 pb-20 nl-bg-color-brown rounded-5"></i>
+                                </div>
+                                <div class="nl-icon-box_content">
+                                    <p class="nl-fs-18 nl-font-body nl-lh-30">Need help?</p>
+                                    <h6 class="nl-fs-18 nl-font-heading nl-lh-24">
+                                        (91) 6375752630
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header End -->
+
+        <!--mobile menu start-->
+        <div class="mobile-menu ul-li">
+            <a href="javascript:void(0)" class="close"
+            ><i class="isax icon-close-circle1"></i
+            ></a>
+            <a href="index.html" class="logo"
+            ><img src="assets/images/logov2.svg" alt="logo" class="img-fluid"></a>
+            <ul class="mobile-nav-menu">
+                <li class="has-submenu">
+                    <a href="javascript:void(0)">Home</a>
+                    <i class="isax icon-arrow-down1"></i>
+                    <ul class="submenu-wrapper">
+                        <li><a href="index.html">Home 1</a></li>
+                        <li><a href="index2.html">Home 2</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li class="has-submenu">
+                    <a href="project.html">Project</a>
+                    <i class="isax icon-arrow-down1"></i>
+                    <ul class="submenu-wrapper">
+                        <li><a href="project.html">Projects</a></li>
+                        <li><a href="project-details.html">Project Details</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu">
+                    <a href="Service.html">Services</a>
+                    <i class="isax icon-arrow-down1"></i>
+                    <ul class="submenu-wrapper">
+                        <li><a href="Service.html">Services</a></li>
+                        <li><a href="service-details.html">Service Details</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu">
+                    <a href="javascript:void(0)">Pages</a>
+                    <i class="isax icon-arrow-down1"></i>
+                    <ul class="submenu-wrapper">
+
+                        <li><a href="Faq.html">Faq</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu">
+                    <a href="javascript:void(0)">Blog</a>
+                    <i class="isax icon-arrow-down1"></i>
+                    <ul class="submenu-wrapper">
+                        <li><a href="blog.html">Blog List</a></li>
+                        <li><a href="blog-details.html">Blog Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <!--mobile menu end-->
+
+        <!-- Header Section End -->
+
+        <!-- Hero Section Start -->
+        <section class="nlv2_hero">
+            <div class="nlv2_hero_wrapper">
+                <div class="container container-1290">
+                    <div class="nlv2_hero_wrapper_container pt-70 pb-100 ">
+                        <div class="row position-relative">
+                            <div class="col-lg-4 col-xl-4 col-xxl-4 col-md-6 col-sm-12">
+                                <div class="nlv2_hero_left position-relative has_fade_anim">
+                                    <img src="assets/images/hero/left.jpg" alt="" class="nl-border-radius-5 ">
+                                    <div
+                                            class="nlv2_hero_left_box position-absolute p-3 nl-bg-color-b nl-bg-color-brown text-end rounded-1 has_fade_anim">
+                                        <a href="#" class="hover "><i
+                                                class="nl-icon nl-icon-arrow-right nl-color-white nl-fs-18"></i></a>
+                                        <h4 class="nl-fs-22 nl-font-heading nl-lh-26 pt-65 nl-color-white text-start">
+                                            About Our Agency
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                    class="col-lg-4 col-xl-4 col-xxl-4 col-md-6 col-sm-12 nlv2_hero_middole ">
+                                <h2 class="nl-fs-100 nl-font-heading nl-lh-26 nl-color-black nlv2_hero_hading_one has_char_anim">
+                                    Elevate Your
+                                </h2>
+                                <h2 class="nl-fs-100 nl-font-heading nl-lh-36 nl-color-black nlv2_hero_hading_two has_char_anim">
+                                    Dream Living
+                                </h2>
+                                <p class="nl-fs-16 nl-font-body nl-lh-24 nl-color-gray-800 has_text_move_anim">
+                                    Experience exquisite designs, modern amenities, and serene environments
+                                    that transform everyday living into an extra ordinary lifestyle.
+                                    Discover a new standard of elegance where your dreams are brought to life.
+                                </p>
+                            </div>
+                            <div class="col-lg-4 col-xl-4 col-xxl-4 col-md-12 col-sm-12">
+                                <div class="nlv2_hero_right">
+                                    <div class="nlv2_hero_right-box border-1 nl-border-radius-5 nl-border-cl border pt-10 pl-15 pr-15 pb-10 has_fade_anim">
+                                        <div class="nlv2_hero_right-box--single">
+                                            <p class="nl-fs-16 nl-font-body nl-lh-25 nl-color-black has_char_anim">
+                                                Empowering Business Office
+                                            </p>
+                                            <div class="nlv2_hero_right-box--dtailes pt-45">
+                                                <h6 class="nl-fs-20 nl-font-body nl-lh-24 nl-fw-800 nl-color-black has_char_anim">
+                                                    $215,21
+                                                </h6>
+                                                <p class="nl-fs-16 nl-font-body nl-lh-24 nl-fw-500 nl-color-black has_char_anim">
+                                                    Retention
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nlv2_hero_right-imge">
+                                    <img src="assets/images/hero/right.jpg" alt="" class="nl-border-radius-5">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hero Section End -->
+
+        <!-- Searvice Section Start -->
+        <div class="nlv2_searvice nl-bg-color-gray-100">
+            <div class="nlv2_searvice_wrapper">
+                <div class="container container-1290">
+                    <div class="nlv2_searvice_wrapper_container nl-section-pt nl-section-pb">
+                        <div class="nlv2_searvice-top-part pb-60">
+                            <p class="nl-fs-14 nl-font-body nl-lh-19 text-uppercase nl-color-brown nl-fw-500 nl-ls-1 pb-20 text-center has_fade_anim">
+                                Latest Services
+                            </p>
+                            <h2 class="nl-fs-48 nl-font-heading nl-lh-62 nl-color-black nl-width-45 m-auto text-center has_fade_anim">
+                                Turning Estate properties into home
+                            </h2>
+                        </div>
+                        <div class="nlv2_searvice-box">
+                            <div class="row g-30 has_fade_anim">
+                                <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 col-md-6 col-sm-12">
+                                    <div class="nlv2_searvice-box-main text-center nl-bg-color-white pt-40 pb-60 pl-40 pr-40 nl-border-radius-5 nl-button-hover">
+                                        <div class="nl-button overflow-hidden">
+                                            <i class="nl-icon nl-icon-home-2 nl-fs-65 nl-color-brown"
+                                            ></i>
+                                        </div>
+
+                                        <h6 class="nl-fs-22 nl-font-heading nl-lh-26 nl-color-black pt-30 pb-20">
+                                            Budget Real Estate Agency
+                                        </h6>
+                                        <p class="nl-fs-18 nl-font-body nl-lh-26 nl-color-gray-800">
+                                            Discover affordable homes with our budget real estate agency, 
+                                            where quality meets affordability. Your dream home is within reach!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 col-md-6 col-sm-12">
+                                    <div class="nlv2_searvice-box-main text-center nl-bg-color-white pt-40 pb-60 pl-40 pr-40 nl-border-radius-5 nl-button-hover">
+                                        <div class="nl-button overflow-hidden">
+                                            <i
+                                                    class="nl-icon nl-icon-home-3 nl-fs-65 nl-color-brown"
+                                            ></i>
+                                        </div>
+
+                                        <h6
+                                                class="nl-fs-22 nl-font-heading nl-lh-26 nl-color-black pt-30 pb-20">
+                                            Premium Properties
+                                        </h6>
+                                        <p class="nl-fs-18 nl-font-body nl-lh-26 nl-color-gray-800">
+                                            Discover excellence with our premium real estate agency, 
+                                            offering unparalleled service, luxury properties.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 col-md-6 col-sm-12">
+                                    <div class="nlv2_searvice-box-main text-center nl-bg-color-white pt-40 pb-60 pl-40 pr-40 nl-border-radius-5 nl-button-hover">
+                                        <div class="nl-button overflow-hidden">
+                                            <i
+                                                    class="nl-icon nl-icon-sofa nl-fs-65 nl-color-brown"
+                                            ></i>
+                                        </div>
+                                        <h6 class="nl-fs-22 nl-font-heading nl-lh-26 nl-color-black pt-30 pb-20">
+                                            Flat Residential
+                                        </h6>
+                                        <p class="nl-fs-18 nl-font-body nl-lh-26 nl-color-gray-800">
+                                            Experience modern living in our flat residency, offering 
+                                            stylish apartments, top-notch amenities, and a vibrant community.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Searvice Section End -->
+
+
+        <!-- About Section Start -->
+
+        <div class="nlv2_about nl-bg-color-gray-100 nl-section-pb">
+            <div class="nlv2_about_wrapper">
+                <div class="container container-1290">
+                    <div class="nlv2_about_wrapper_container">
+                        <div class="row">
+                            <div class="col-12 col-lg-5 col-xl-5 col-xxl-5 col-md-6 col-sm-12 align-self-center has_fade_anim">
+                                <h6 class="nl-fs-14 nl-font-body nl-lh-19 text-uppercase nl-color-brown nl-fw-500 nl-ls-1 text-center text-lg-start text-md-start has_fade_anim">
+                                    About Us
+                                </h6>
+                                <h2 class="nl-fs-48 nl-font-heading nl-lh-62 nl-color-black m-auto text-center text-lg-start pb-15 text-md-start has_fade_anim">
+                                    Your Dream To Real Estate Turning Into Reality 
+                                </h2>
+                                <p class="nl-fs-18 nl-font-body nl-lh-30 nl-color-gray-800 pb-1 has_fade_anim">
+                                    Turning your dream of real estate into reality with expert guidance,
+                                    premium properties, and exceptional service for your ideal home.
+                                </p>
+                                <div class="nlv2_about_icon_box d-flex align-items-center gap-2 has_fade_anim">
+                                    <i class="nl-icon nl-icon-check nl-color-brown nl-fs-16"></i>
+                                    <span class="nl-fs-18 nl-font-body nl-lh-30 nl-color-gray-800 text-center text-lg-start">Best Deals</span>
+                                </div>
+                                <div class="nlv2_about_icon_box d-flex align-items-center gap-2 has_fade_anim">
+                                    <i class="nl-icon nl-icon-check nl-color-brown nl-fs-16"></i>
+                                    <span class="nl-fs-18 nl-font-body nl-lh-30 nl-color-gray-800 text-center text-lg-start ">Best Location</span>
+                                </div>
+                                <div class="nl__section-button nl-about-button mt-40 has_fade_anim">
+                                    <a href="#"
+                                       class="nl-fs-14 nl-fw-500 nl-lh-25 text-uppercase overflow-hidden d-inline-flex position-relative nl-color-black">
+                                        <span class="position-relative z-1">Read More</span>
+                                        <span class="nl__btn-hover-style"></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-5 col-xl-2 col-xxl-2 col-md-12 col-sm-12 d-none d-lg-block"></div>
+                            <div class="col-12 col-lg-5 col-xl-5 col-xxl-5 col-md-6 col-sm-12 nl-mobile-mt">
+                                <div class="nlv2_about-image position-relative has_fade_anim">
+                                    <div class="image-hover">
+                                        <img src="assets/images/about/about1.jpg" alt=""
+                                             class="nl-border-radius-5 has_fade_anim">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Section End -->
+
+
+        <!-- Newsleater Section Start -->
+        <div class="nlv2_newsleatter nl-bg-color-gray-100 nl-section-pb">
+            <div class="nlv2_newsleatter_wrapper">
+                <div class="container container-1290">
+                    <div class="nlv2_newsleatter_wrapper_container nl-bg-color-white nl-border-radius-5 overflow-hidden has_fade_anim">
+                        <div class="row">
+                            <div class="col-12 col-lg-4 col-xl-4 col-xxl-5 col-md-12 col-sm-12">
+                                <div class="nlv2_newsleatter-left position-relative text-end has_fade_anim">
+                                    <img src="assets/images/newsletter/newsletter1.png" alt="" class="pt-50">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-2 col-xl-2 col-xxl-2 col-md-12 col-sm-12 d-none d-lg-block">
+                            </div>
+                            <div class="col-12 col-lg-5 col-xl-5 col-xxl-5 col-md-12 col-sm-12 align-self-center">
+                                <div class="nlv2_newsleatter-right pl-20 pr-20 pb-20">
+                                    <h2 class="nl-fs-48 nl-font-heading nl-lh-62 nl-color-black m-auto text-center text-lg-start pb-15 text-md-start has_fade_anim">
+                                        Book Your Dream Home Newsletter
+                                    </h2>
+                                    <p class="nl-fs-18 nl-font-body nl-lh-30 nl-color-gray-800 pb-1 has_fade_anim">
+                                        Subscribe to our newsletter and book your dream home today. Get exclusive updates, offers, and insights on luxury properties.
+                                    </p>
+                                    <div class="row pt-25">
+                                        <div class="col-12 col-lg-7 col-xl-7 col-xxl-7 col-md-6 col-sm-12">
+                                            <div class="form-group has_fade_anim">
+                                                <input type="text" class="form-control nlv2_input pl-20"
+                                                       placeholder="Email Address"
+                                                       id="Email">
+
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-5 col-xl-5 col-xxl-5 col-md-6 col-sm-12 mt-3 mt-lg-0 mt-md-0 mt-sm-0">
+                                            <div class="nl__section-button nl-about-button has_fade_anim">
+                                                <a href="#"
+                                                   class="nl-fs-14 nl-fw-500 nl-lh-25 text-uppercase overflow-hidden d-lg-inline-flex  position-relative nl-color-black">
+                                                    <span class="position-relative z-1">Subscribe Now</span>
+                                                    <span class="nl__btn-hover-style"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-1 col-xl-1 col-xxl-1 col-md-12 col-sm-12 d-none d-lg-block">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Newsleater Section End -->
+
+        <!-- Searvice Section Start -->
+        <div class="nlv2_Property nl-bg-color-gray-100">
+            <div class="nlv2_Property_wrapper">
+                <div class="container container-1290">
+                    <div class="nlv2_Property_wrapper_container nl-section-pb">
+                        <div class="nlv2_Property-top-part pb-60">
+                            <p class="nl-fs-14 nl-font-body nl-lh-19 text-uppercase nl-color-brown nl-fw-500 nl-ls-1 pb-20 text-center has_fade_anim">
+                                Property Details
+                            </p>
+                            <h2 class="nl-fs-48 nl-font-heading nl-lh-62 nl-color-black nl-width-50 m-auto text-center has_fade_anim">
+                                Some Mangalam Properties Recent Projects
+                            </h2>
+                        </div>
+                        <div class="nlv2_Property-box has_fade_anim">
+                            <div class="row g-30">
+                                <div
+                                        class="col-12 col-lg-4 col-xl-4 col-xxl-4 col-md-6 col-sm-12">
+                                    <div
+                                            class="nlv2_Property-box-main text-center nl-bg-color-white pt-30 pb-30 pl-30 pr-30 nl-border-radius-5 nl-button-hover">
+                                        <div class="nlv2_Property-box-img position-relative image-hover">
+                                            <img src="assets/images/property/Property1.jpg" alt=""
+                                                 class="nl-border-radius-5">
+                                            <div class="nlv2_Property-box-img-cat position-absolute">
+                                                <a href="#"
+                                                   class="nl-fs-18 nl-font-heading nl-lh-24 nl-color-black nl-ls-1 nl-bg-color-white d-inline-block p-1">Rent</a>
+                                            </div>
+                                        </div>
+                                        <div class="nlv2_Property-box-content text-start pt-20">
+                                            <a href="#"
+                                               class="nl-fs-22 nl-font-heading nl-lh-26 nl-color-black mt-20 mb-20">
+                                               Elysian Estates
+                                            </a>
+                                            <div class="nlv2_Property-box-icon d-flex gap-3 pt-15">
+                                                <div class="nlv2_Property-box-icon-item d-flex gap-2">
+                                                    <i class="nl-icon nl-icon-bed nl-color-black nl-fs-20"></i>
+                                                    <span class="nl-fs-18 nl-font-body nl-lh-30 nl-color-gray-800">6 Bed</span>
+                                                </div>
+                                                <div class="nlv2_Property-box-icon-item d-flex gap-2">
+                                                    <i class="nl-icon nl-icon-bathtub nl-color-black nl-fs-20"></i>
+                                                    <span class="nl-fs-18 nl-font-body nl-lh-30 nl-color-gray-800">2 Bath</span>
+                                                </div>
+                                                <div class="nlv2_Property-box-icon-item d-flex gap-2">
+                                                    <i class="nl-icon nl-icon-sqft nl-color-black nl-fs-20"></i>
+                                                    <span class="nl-fs-18 nl-font-body nl-lh-30 nl-color-gray-800">1200 Sqft</span>
+                                                </div>
+                                            </div>
+                                            <p class="nl-fs-18 nl-font-body nl-lh-26 nl-color-gray-800">
+                                                Luxurious homes with serene landscapes and modern amenities.
+                                            </p>
+                                            <div class="nlv2_Property-box-icon-bottom border-top nl-border-cl mt-35 d-flex justify-content-between pt-20">
+                                                <div class="nlv2_Property-box-icon-bottom-left d-flex gap-2 align-items-center ">
+                                                    <i class="nl-icon nl-icon-location-marker nl-color-black nl-fs-20"></i>
+                                                    <span class="nl-fs-18 nl-font-body nl-lh-30 nl-color-gray-800">Pratap Nagar, Jaipur</span>
+                                                </div>
+                                                <div class="nlv2_Property-box-icon-bottom-right nl-icon-heart-2">
+                                                    <i id="Cartheart"
+                                                       class="nl-icon nl-icon-heart nl-fs-24 nl-color-brown"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 col-md-6 col-sm-12">
+                                    <div class="nlv2_Property-box-main text-center nl-bg-color-white pt-30 pb-30 pl-30 pr-30 nl-border-radius-5 nl-button-hover">
+                                        <div class="nlv2_Property-box-img position-relative image-hover">
+                                            <img src="assets/images/property/Property2.jpg" alt=""
+                                                 class="nl-border-radius-5">
+                                            <div class="nlv2_Property-box-img-cat position-absolute">
+                                                <a href="#"
+                                                   class="nl-fs-18 nl-font-heading nl-lh-24 nl-color-black nl-ls-1 nl-bg-color-white d-inline-block p-1">Rent</a>
+                                            </div>
+                                        </div>
+                                        <div class="nlv2_Property-box-content text-start pt-20">
+                                            <a href="#"
+                                               class="nl-fs-22 nl-font-heading nl-lh-26 nl-color-black mt-20 mb-20">
+                                               Regal Residences
+                                            </a>
+                                            <div class="nlv2_Property-box-icon d-flex gap-3 pt-15">
+                                                <div class="nlv2_Property-box-icon-item d-flex gap-2">
+                                                    <i class="nl-icon nl-icon-bed nl-color-black nl-fs-20"></i>
+                                                    <span class="nl-fs-18 nl-font-body nl-lh-30 nl-color-gray-800">6 Bed</span>
+                                                </div>
+                                                <div class="nlv2_Property-box-icon-item d-flex gap-2">
+                                                    <i class="nl-icon nl-icon-bathtub nl-color-black nl-fs-20"></i>
+                                                    <span class="nl-fs-18 nl-font-body nl-lh-30 nl-color-gray-800">2 Bath</span>
+                                                </div>
+                                                <div class="nlv2_Property-box-icon-item d-flex gap-2">
+                                                    <i class="nl-icon nl-icon-sqft nl-color-black nl-fs-20"></i>
+                                                    <span class="nl-fs-18 nl-font-body nl-lh-30 nl-color-gray-800">1200 Sqft</span>
+                                                </div>
+                                            </div>
+                                            <p class="nl-fs-18 nl-font-body nl-lh-26 nl-color-gray-800">
+                                                Elegant properties offering unparalleled comfort and sophistication.
+                                            </p>
+                                            <div class="nlv2_Property-box-icon-bottom border-top nl-border-cl mt-35 d-flex justify-content-between pt-20">
+                                                <div class="nlv2_Property-box-icon-bottom-left d-flex gap-2 align-items-center ">
+                                                    <i class="nl-icon nl-icon-location-marker nl-color-black nl-fs-20"></i>
+                                                    <span class="nl-fs-18 nl-font-body nl-lh-30 nl-color-gray-800">Jagatpura, Jaipur</span>
+                                                </div>
+                                                <div class="nlv2_Property-box-icon-bottom-right nl-icon-heart-3">
+                                                    <i id="Cartheart2"
+                                                       class="nl-icon nl-icon-heart nl-fs-24 nl-color-brown"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-12 col-lg-4 col-xl-4 col-xxl-4 col-md-6 col-sm-12">
+                                    <div class="nlv2_Property-box-main text-center nl-bg-color-white pt-30 pb-30 pl-30 pr-30 nl-border-radius-5 nl-button-hover">
+                                        <div class="nlv2_Property-box-img position-relative image-hover">
+                                            <img src="assets/images/property/Property3.jpg" alt=""
+                                                 class="nl-border-radius-5">
+                                            <div class="nlv2_Property-box-img-cat position-absolute">
+                                                <a href="#"
+                                                   class="nl-fs-18 nl-font-heading nl-lh-24 nl-color-black nl-ls-1 nl-bg-color-white d-inline-block p-1">Rent</a>
+                                            </div>
+                                        </div>
+                                        <div class="nlv2_Property-box-content text-start pt-20">
+                                            <a href="#"
+                                               class="nl-fs-22 nl-font-heading nl-lh-26 nl-color-black mt-20 mb-20">
+                                               Opulent Oaks
+                                            </a>
+                                            <div class="nlv2_Property-box-icon d-flex gap-3 pt-15">
+                                                <div class="nlv2_Property-box-icon-item d-flex gap-2">
+                                                    <i class="nl-icon nl-icon-bed nl-color-black nl-fs-20"></i>
+                                                    <span class="nl-fs-18 nl-font-body nl-lh-30 nl-color-gray-800">6 Bed</span>
+                                                </div>
+                                                <div class="nlv2_Property-box-icon-item d-flex gap-2">
+                                                    <i class="nl-icon nl-icon-bathtub nl-color-black nl-fs-20"></i>
+                                                    <span class="nl-fs-18 nl-font-body nl-lh-30 nl-color-gray-800">2 Bath</span>
+                                                </div>
+                                                <div class="nlv2_Property-box-icon-item d-flex gap-2">
+                                                    <i class="nl-icon nl-icon-sqft nl-color-black nl-fs-20"></i>
+                                                    <span class="nl-fs-18 nl-font-body nl-lh-30 nl-color-gray-800">1200 Sqft</span>
+                                                </div>
+                                            </div>
+                                            <p class="nl-fs-18 nl-font-body nl-lh-26 nl-color-gray-800">
+                                                Exclusive estates nestled among beautiful, tranquil oak trees.
+                                            </p>
+                                            <div class="nlv2_Property-box-icon-bottom border-top nl-border-cl mt-35 d-flex justify-content-between pt-20">
+                                                <div class="nlv2_Property-box-icon-bottom-left d-flex gap-2 align-items-center ">
+                                                    <i class="nl-icon nl-icon-location-marker nl-color-black nl-fs-20"></i>
+                                                    <span class="nl-fs-18 nl-font-body nl-lh-30 nl-color-gray-800">Malviya Nagar, Jaipur</span>
+                                                </div>
+                                                <div class="nlv2_Property-box-icon-bottom-right">
+                                                    <i id="Cartheart3"
+                                                       class="nl-icon nl-icon-heart nl-fs-24 nl-color-brown"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Searvice Section End -->
+
+        <!-- experiences Section Start -->
+        <div class="nlv2_experiences nl-bg-color-gray-100 nl-section-pb">
+            <div class="nlv2_experiences_wrapper">
+                <div class="container container-1290">
+                    <div class="nlv2_experiences_wrapper_container position-relative">
+                        <div class="row">
+                            <div class="col-12 col-lg-12 col-xl-5 col-xxl-5 col-md-12 col-sm-12 align-self-center">
+                                <div class="nlv2_experiences-bg-content">
+                                    <img src="assets/images/Experiences/bg-building.png" alt="" class="has_char_anim">
+                                    <h6 class="nl-fs-14 nl-font-body nl-lh-19 text-uppercase nl-color-brown nl-fw-500 nl-ls-1 text-center text-lg-start text-md-start has_fade_anim">
+                                        Know About Us </h6>
+                                    <h2 class="nl-fs-48 nl-font-heading nl-lh-62 nl-color-black m-auto text-center text-lg-start pb-15 pt-20 text-md-start has_fade_anim">
+                                        Building communities through real estate
+                                    </h2>
+                                    <p class="nl-fs-18 nl-font-body nl-lh-30 nl-color-gray-800 pb-1 has_fade_anim">
+                                        <!-- Mangalam Properties, Jaipur's premier real estate company, offers affordable, luxurious, and comfortable homes. With its office in Jaipur, Rajasthan, Mangalam Properties ensures excellence in quality, service, and customer satisfaction for every homebuyer's dream. -->
+                                        Mangalam Properties, Rajasthan's premier real estate company based in Jaipur, embodies excellence in affordable, luxury, and comfortable homes. With a commitment to quality and customer satisfaction, we offer a diverse range of properties. Our Jaipur office serves as a hub for personalized service, ensuring clients find their dream homes with ease and convenience in the vibrant city of Rajasthan.
+                                    </p>
+<!-- 
+                                    <div class="nl__section-button nl-experiences-button mt-40 has_fade_anim">
+                                        <a href="#"
+                                           class="nl-fs-14 nl-fw-500 nl-lh-25 text-uppercase overflow-hidden d-inline-flex position-relative nl-color-black">
+                                            <span class="position-relative z-1">Read More</span>
+                                            <span class="nl__btn-hover-style"></span>
+                                        </a>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-5 col-xl-1 col-xxl-1 col-md-12 col-sm-12 d-none d-lg-block"></div>
+                            <div class="col-12 col-lg-12 col-xl-5 col-xxl-5 col-md-12 col-sm-12 nl-mobile-mt">
+                                <div class="row g-3">
+                                    <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 col-md-6 col-sm-12">
+                                        <div class="nlv2_experiences-left position-relative">
+                                            <img src="assets/images/Experiences/bg-building.lf.jpg" alt=""
+                                                 class="nl-border-radius-5 has_fade_anim">
+                                            <div class="nlv2_experiences-left-box pt-10 pl-35 pb-10 pr-25 nl-bg-color-white d-inline-block nl-border-radius-5 d-flex gap-2 align-items-center has_fade_anim">
+                                                <div class="nlv2_experiences-left-box-top">
+                                                    <img src="assets/images/Experiences/client.jpg" alt=""
+                                                         class="has_fade_anim">
+                                                </div>
+                                                <div class="nlv2_experiences-left-box-buttom pt-10">
+                                                    <h6 class="nl-fs-26 nl-lh-33 nl-font-heading nl-color-black"><span
+                                                            class="odometer" data-count="3000">10</span>+</h6>
+                                                    <p class="nl-fs-18 nl-lh-30 nl-font-body nl-color-gray-800">
+                                                        Satisfied
+                                                        Clients </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 col-md-6 col-sm-12">
+                                        <div class="nlv2_experiences-right">
+                                            <div class="nlv2_experiences-right-box pt-10 pl-15 pb-10 pr-15 nl-bg-color-white d-inline-block nl-border-radius-5 mt-40 mb-20 has_fade_anim">
+                                                <div class="nlv2_experiences-right-box-top d-flex gap-2 align-items-center">
+
+                                                    <i class="nl-icon nl-icon-experience nl-fs-26 p-3 rounded-5 nl-bg-color-brown nl-color-white"></i>
+                                                    <h6 class="nl-fs-40 nl-lh-50 nl-font-heading nl-color-black "><span
+                                                            class="odometer" data-count="10">1</span>+</h6>
+                                                </div>
+                                                <div class="nlv2_experiences-right-box-buttom pt-10">
+                                                    <p class="nl-fs-18 nl-lh-24 nl-font-heading nl-color-black pl-10">
+                                                        Years Of
+                                                        Experiences </p>
+                                                </div>
+                                            </div>
+                                            <img src="assets/images/Experiences/bg-building-rt.jpg" alt=""
+                                                 class="nl-border-radius-5 has_fade_anim">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-5 col-xl-1 col-xxl-1 col-md-12 col-sm-12 d-none d-lg-block"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- experiences Section End -->
+
+        <!-- testimonial Section Start -->
+        <div class="nlv2_testimonial nl-bg-color-black nl-section-pt pb-95">
+            <div class="nlv2_testimonial_wrapper">
+                <div class="container container-1290">
+                    <div class="nlv2_testimonial_wrapper_container">
+                        <div class="row">
+                            <div class="col-12 col-lg-5 col-xl-5 col-xxl-5 col-md-12 col-sm-12">
+                                <div class="nlv2_testimonial-bg-content">
+                                    <h6 class="nl-fs-14 nl-font-body nl-lh-19 text-uppercase nl-color-brown nl-fw-500 nl-ls-1 text-center text-lg-start text-md-start has_fade_anim">
+                                        Clients Testimonial
+                                    </h6>
+                                    <h2 class="nl-fs-48 nl-font-heading nl-lh-62 nl-color-white m-auto text-center text-lg-start pb-45 pt-20 text-md-start has_fade_anim">
+                                        Building Communities Through Real Estate
+                                    </h2>
+                                    <i class="nl-icon nl-icon-quote nlv2_testimonial_quote nl-fs-96 has_fade_anim"></i>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-7 col-xl-7 col-xxl-7 col-md-12 col-sm-12">
+                                <div class="swiper nlv2_testimonial_slide">
+                                    <div class="nl-testimonial-pagination d-none d-sm-inline-flex">
+                                        <div class="swiper-button-next"></div>
+                                        <div class="swiper-button-prev"></div>
+                                    </div>
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="nlv2_testimonial_slide_item">
+                                                <div class="nlv2_testimonial_slide_item_top">
+                                                    <div class="nlv2_testimonial_slide_item_top_img d-flex align-items-center gap-4">
+                                                        <img src="assets/images/testimonial/client1.png" alt="">
+                                                        <div class="nlv2_testimonial_slide_item_top_review">
+                                                            <p class="nl-fs-20 nl-font-body nl-lh-19 nl-color-white nl-fw-800 nl-ls-21 text-center text-lg-start text-md-start mb-20">
+                                                                Manan Agrawal</p>
+                                                            <div class="nl-review">
+                                                                <span><i
+                                                                        class="nl-icon nl-icon-star nl-colo"></i></span>
+                                                                <span><i
+                                                                        class="nl-icon nl-icon-star nl-colo"></i></span>
+                                                                <span><i
+                                                                        class="nl-icon nl-icon-star nl-colo"></i></span>
+                                                                <span><i
+                                                                        class="nl-icon nl-icon-star nl-colo"></i></span>
+                                                                <span><i
+                                                                        class="nl-icon nl-icon-star nl-colo"></i></span>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="nlv2_testimonial_slide_item_buttom pt-45">
+                                                    <p class="nl-fs-24 nl-font-body nl-lh-43 nl-color-white fw-light">
+                                                        Mangalam Properties made our dream of owning a home in Jaipur a reality. Their team guided us through every step with professionalism and dedication. The quality of the property exceeded our expectations, and the affordability was unmatched. We highly recommend Mangalam Properties to anyone seeking a reliable and trustworthy real estate company in Rajasthan.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="nlv2_testimonial_slide_item has_fade_anim">
+                                                <div class="nlv2_testimonial_slide_item_top">
+                                                    <div class="nlv2_testimonial_slide_item_top_img d-flex align-items-center gap-4">
+                                                        <img src="assets/images/testimonial/client1.png" alt="">
+                                                        <div class="nlv2_testimonial_slide_item_top_review">
+                                                            <p class="nl-fs-20 nl-font-body nl-lh-19 nl-color-white nl-fw-800 nl-ls-21 text-center text-lg-start text-md-start mb-20">
+                                                                Aniket Kumar</p>
+                                                            <div class="nl-review">
+                                                                <span><i
+                                                                        class="nl-icon nl-icon-star nl-colo"></i></span>
+                                                                <span><i
+                                                                        class="nl-icon nl-icon-star nl-colo"></i></span>
+                                                                <span><i
+                                                                        class="nl-icon nl-icon-star nl-colo"></i></span>
+                                                                <span><i
+                                                                        class="nl-icon nl-icon-star nl-colo"></i></span>
+                                                                <span><i
+                                                                        class="nl-icon nl-icon-star nl-colo"></i></span>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="nlv2_testimonial_slide_item_buttom pt-45">
+                                                    <p class="nl-fs-24 nl-font-body nl-lh-43 nl-color-white fw-light">
+                                                        Choosing Mangalam Properties was the best decision we made for our real estate needs in Jaipur. Their attention to detail, personalized service, and commitment to customer satisfaction truly set them apart. Our experience with them was seamless, and we are now proud owners of a beautiful home that fits perfectly within our budget and lifestyle</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- testimonial Section End -->
+
+        <!-- Dsign Section Start -->
+        <div class="nlv2_dsign nl-bg-color-gray-100">
+            <div class="nlv2_dsign_wrapper">
+                <div class="container container-1290">
+                    <div class="nlv2_dsign_wrapper_container nl-section-pt nl-section-pb">
+                        <div class="nlv2_dsign-top-part pb-75">
+                            <p class="nl-fs-14 nl-font-body nl-lh-19 text-uppercase nl-color-brown nl-fw-500 nl-ls-1 pb-20 text-center has_fade_anim">
+                                Latest Portfolio
+                            </p>
+                            <h2 class="nl-fs-48 nl-font-heading nl-lh-62 nl-color-black nl-width-45 m-auto text-center has_fade_anim">
+                                Doors To A Better Future Discover Your Perfect </h2>
+                        </div>
+                        <div class="nlv2_dsign-box ">
+                            <div class="row g-30">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="nlv2_dsign-box-main nl-bg-color-white position-relative nl-border-radius-5 nl-button-hover has_fade_anim image-hover">
+                                        <img src="assets/images/dsign/dsign1.jpg" alt="">
+                                        <div class="nlv2_dsign-box-content position-absolute nl-bg-color-white mr-20 ml-20 nl-border-radius-5 pl-30 pt-30 pb-30">
+                                            <a href="#" class="nl-fs-22 nl-font-heading nl-lh-26 nl-color-black">
+                                                Royal Oasis Residency
+                                            </a>
+                                            <p class="nl-fs-18 nl-font-body nl-lh-26 nl-color-gray-800">
+                                                Mangalam Properties
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="nlv2_dsign-box-main nl-bg-color-white position-relative nl-border-radius-5 nl-button-hover has_fade_anim image-hover">
+                                        <img src="assets/images/dsign/dsign2.jpg" alt="">
+                                        <div class="nlv2_dsign-box-content position-absolute nl-bg-color-white mr-20 ml-20 nl-border-radius-5 pl-30 pt-30 pb-30">
+                                            <a href="#" class="nl-fs-22 nl-font-heading nl-lh-26 nl-color-black">
+                                                Majestic Heights
+                                            </a>
+                                            <p class="nl-fs-18 nl-font-body nl-lh-26 nl-color-gray-800">
+                                                Mangalam Properties
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="nlv2_dsign-box-main nl-bg-color-white position-relative nl-border-radius-5 nl-button-hover has_fade_anim image-hover">
+                                        <img src="assets/images/dsign/dsign3.jpg" alt="">
+                                        <div class="nlv2_dsign-box-content position-absolute nl-bg-color-white mr-20 ml-20 nl-border-radius-5 pl-30 pt-30 pb-30">
+                                            <a href="#" class="nl-fs-22 nl-font-heading nl-lh-26 nl-color-black">
+                                                Serene Valley Estates
+                                            </a>
+                                            <p class="nl-fs-18 nl-font-body nl-lh-26 nl-color-gray-800">
+                                                Mangalam Properties
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="nlv2_dsign-box-main nl-bg-color-white position-relative nl-border-radius-5 nl-button-hover has_fade_anim image-hover">
+                                        <img src="assets/images/dsign/dsign4.jpg" alt="">
+                                        <div class="nlv2_dsign-box-content position-absolute nl-bg-color-white mr-20 ml-20 nl-border-radius-5 pl-30 pt-30 pb-30">
+                                            <a href="#" class="nl-fs-22 nl-font-heading nl-lh-26 nl-color-black">
+                                                Grandeur Gardens
+                                            </a>
+                                            <p class="nl-fs-18 nl-font-body nl-lh-26 nl-color-gray-800">
+                                                Mangalam Properties
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="nlv2_dsign-box-main nl-bg-color-white position-relative nl-border-radius-5 nl-button-hover has_fade_anim image-hover">
+                                        <img src="assets/images/dsign/dsign5.jpg" alt="">
+                                        <div class="nlv2_dsign-box-content position-absolute nl-bg-color-white mr-20 ml-20 nl-border-radius-5 pl-30 pt-30 pb-30">
+                                            <a href="#" class="nl-fs-22 nl-font-heading nl-lh-26 nl-color-black">
+                                                Elite Horizon Residences
+                                            </a>
+                                            <p class="nl-fs-18 nl-font-body nl-lh-26 nl-color-gray-800">
+                                                Mangalam Properties
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Dsign Section End -->
+
+
+        <!-- Marque section Start-->
+        <!-- <section class="nl-marque-section nl-bg-color-gray-100 pb-135">
+            <div class="marquees_wrapper has_fade_anim">
+                <h2 class="nl-color-black nl-fs-59 nl-fw-500 nl-lh-67 nl-font-body mr-80">
+            <span class="item mr-40">
+                <i class="nl-icon nl-icon-house-location-2 nl-color-brown mr-20"></i>
+                Metro Homes <span class="nl__marqueue-text-stroke">Home Bliss Realty</span>
+            </span>
+                    <span class="item">
+                <i class="nl-icon nl-icon-house-location-2 nl-color-brown mr-20"></i>
+                Metro Homes <span class="nl__marqueue-text-stroke">Home Bliss Realty</span>
+            </span>
+                </h2>
+            </div>
+        </section> -->
+        <!-- Marque section End-->
+
+        <!-- Team Section Start -->
+        <div class="nlv2_team nl-bg-color-gray-100 nl-section-pb">
+            <div class="nlv2_team_wrapper">
+                <div class="container container-1290">
+                    <div class="nlv2_team_wrapper_container position-relative">
+                        <div class="row">
+                            <div class="col-12 col-lg-3 col-xl-3 col-xxl-3 col-md-12 col-sm-12">
+                                <div class="nlv2_team-bg-content">
+                                    <img src="assets/images/team/building.png" alt=""
+                                         class=" bottom-0 position-absolute">
+                                    <h6 class="nl-fs-14 nl-font-body nl-lh-19 text-uppercase nl-color-brown nl-fw-500 nl-ls-1 text-center text-lg-start text-md-start has_fade_anim">
+                                        Our Creative Members</h6>
+                                    <h2 class="nl-fs-48 nl-font-heading nl-lh-62 nl-color-black m-auto text-center text-lg-start pb-15 pt-20 text-md-start has_fade_anim">
+                                        Building The A Real Estate
+                                    </h2>
+                                    <div class="nl__section-button nl-team-button has_fade_anim">
+                                        <!-- <a href="#"
+                                           class="nl-fs-14 nl-fw-500 nl-lh-25 text-uppercase overflow-hidden d-inline-flex position-relative nl-color-black">
+                                            <span class="position-relative z-1">Read More</span>
+                                            <span class="nl__btn-hover-style"></span>
+                                        </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-1 col-xl-1 col-xxl-1 col-md-12 col-sm-12 d-none d-lg-block"></div>
+                            <div class="col-12 col-lg-8 col-xl-8 col-xxl-8 col-md-12 col-sm-12">
+                                <div class="row g-3 nl-mobile-mt">
+                                    <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 col-md-6 col-sm-12">
+                                        <div class="nlv2_team-card has_fade_anim">
+                                            <img src="assets/images/team/team1.jpg" alt="" class="nl-border-radius-5">
+                                            <div class="row g-0">
+                                                <div class="col-lg-9">
+                                                    <div class="nlv2_team-card-content text-center position-relative pt-40 pb-45 nl-bg-color-white nl-border-radius-5 text-center">
+                                                        <h6 class="nl-fs-22 nl-font-heading nl-lh-26 nl-color-black">
+                                                            Chetan Kumar</h6>
+                                                        <p class="nl-fs-18 nl-font-body nl-lh-30 nl-color-gray-800 pt-1 pb-15">
+                                                            Civil Engineer</p>
+                                                        <div class="nlv2_team-card-content-social d-flex justify-content-center">
+                                                            <span class=" nl-button-hover"></span>
+                                                            <a href="#"
+                                                               class="nl-color-black border-1 border nl-border-cl nl-border-radius-5 nl-button-hover overflow-hidden"><span
+                                                                    class="nl-button"><i
+                                                                    class="nl-icon nl-icon-facebook"></i></span></a>
+                                                            <a href="#"
+                                                               class="nl-color-black border-1 border nl-border-cl nl-border-radius-5 nl-button-hover overflow-hidden"><span
+                                                                    class="nl-button"><i
+                                                                    class="nl-icon nl-icon-twitter"></i></span></a>
+                                                            <a href="#"
+                                                               class="nl-color-black border-1 border nl-border-cl nl-border-radius-5 nl-button-hover overflow-hidden"><span
+                                                                    class="nl-button"><i
+                                                                    class="nl-icon nl-icon-instagram"></i></span></a>
+                                                            <a href="#"
+                                                               class="nl-color-black border-1 border nl-border-cl nl-border-radius-5 nl-button-hover overflow-hidden"><span
+                                                                    class="nl-button"><i
+                                                                    class="nl-icon nl-icon-pinterest"></i></span></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 d-none d-lg-block">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 col-md-6 col-sm-12">
+                                        <div class="nlv2_team-card has_fade_anim">
+                                            <img src="assets/images/team/team2.jpg" alt="" class="nl-border-radius-5">
+                                            <div class="row g-0">
+                                                <div class="col-lg-9">
+                                                    <div class="nlv2_team-card-content text-center position-relative pt-40 pb-45 nl-bg-color-white nl-border-radius-5 text-center">
+                                                        <h6 class="nl-fs-22 nl-font-heading nl-lh-26 nl-color-black">
+                                                            Yuchit Yadav</h6>
+                                                        <p class="nl-fs-18 nl-font-body nl-lh-30 nl-color-gray-800 pt-1 pb-15">
+                                                            Senior Architect</p>
+                                                        <div class="nlv2_team-card-content-social d-flex justify-content-center">
+                                                            <span class=" nl-button-hover"></span>
+                                                            <a href="#"
+                                                               class="nl-color-black border-1 border nl-border-cl nl-border-radius-5 nl-button-hover overflow-hidden"><span
+                                                                    class="nl-button"><i
+                                                                    class="nl-icon nl-icon-facebook"></i></span></a>
+                                                            <a href="#"
+                                                               class="nl-color-black border-1 border nl-border-cl nl-border-radius-5 nl-button-hover overflow-hidden"><span
+                                                                    class="nl-button"><i
+                                                                    class="nl-icon nl-icon-twitter"></i></span></a>
+                                                            <a href="#"
+                                                               class="nl-color-black  border-1 border nl-border-cl nl-border-radius-5 nl-button-hover overflow-hidden"><span
+                                                                    class="nl-button"><i
+                                                                    class="nl-icon nl-icon-instagram"></i></span></a>
+                                                            <a href="#"
+                                                               class="nl-color-black border-1 border nl-border-cl nl-border-radius-5 nl-button-hover overflow-hidden"><span
+                                                                    class="nl-button"><i
+                                                                    class="nl-icon nl-icon-pinterest"></i></span></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-3 d-none d-lg-block">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team Section End -->
+
+        <!-- Footer Section Start -->
+        <!-- <section class="nlv2_footer nl-bg-color-black nl-mp nl-malls">
+            <div class="nlv2_footer_wrapper">
+                <div class="container container-1290">
+                    <div class="nlv2_footer_wrapper_container">
+                        <div class="nlv2_footer_top pt-95 pb-100">
+                            <div class="row">
+                                <div class="col-12 col-lg-12 col-xl-3 col-xxl-3 col-md-6 col-sm-12 ps-0">
+                                    <div class="nlv2_footer_top_logo nl-footer-padding">
+                                        <a href="#"><img src="assets/images/footerlogo.svg" alt=""></a>
+                                        <p class="nl-fs-18 nl-color-white-opacity nl-lh-30 pt-30 pb-30 nl-font-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipis elit phasellus in nibh
+                                            ellentesque gravida elit eu pulvinar lacinia fusce rhogy</p>
+                                        <div class="nlv2_footer-social d-flex nlv2_footer-social gap-4 nl_footer_top_link ">
+                                            <span class="nl-fs-18 nl-color-white nl-color-white-opacity">Followrs: </span>
+                                            <a href="#" class="nl-button-hover overflow-hidden"><span class="nl-button"><i
+                                                    class="nl-icon nl-icon-facebook nl-fs-16"></i></span></a>
+                                            <a href="#" class=" nl-button-hover overflow-hidden"><span
+                                                    class="nl-button"><i
+                                                    class="nl-icon nl-icon-twitter nl-fs-16"></i></span></a>
+                                            <a href="#" class=" nl-button-hover overflow-hidden"><span
+                                                    class="nl-button"><i class="nl-icon nl-icon-instagram nl-fs-16"></i></span></a>
+                                            <a href="#" class=" nl-button-hover overflow-hidden"><span
+                                                    class="nl-button"><i class="nl-icon nl-icon-pinterest nl-fs-16"></i></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-1 col-xl-1 col-xxl-1 col-md-12 col-sm-12 d-none d-lg-block"></div>
+                                <div class="col-12 col-lg-12 col-xl-2 col-xxl-2 col-md-6 col-sm-12 nl-mtp ">
+                                    <div class="nlv2_footer_top_link nl-mobile-mt">
+                                        <h4 class="nl-fs-22 nl-color-white-opacity nl-lh-24 nl-font-heading pb-30">Quick
+                                            Links</h4>
+                                        <ul class="ps-0 list-unstyled nlv2_footer_list_menu">
+                                            <li><a href="#" class="nl-font-body nl-fs-18 nl-lh-30">Home</a></li>
+                                            <li><a href="#" class="nl-font-body nl-fs-18 nl-lh-30">About Us</a></li>
+                                            <li><a href="#" class="nl-font-body nl-fs-18 nl-lh-30">Service</a></li>
+                                            <li><a href="#" class="nl-font-body nl-fs-18 nl-lh-30">Case Study</a></li>
+                                            <li><a href="#" class="nl-font-body nl-fs-18 nl-lh-30">Blog</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-12 col-xl-2 col-xxl-2 col-md-6 col-sm-12 nl-mtp ">
+                                    <div class="nlv2_footer_top_link nl-mobile-mt">
+                                        <h4 class="nl-fs-22 nl-color-white-opacity nl-lh-24 nl-font-heading pb-30">
+                                            Explore</h4>
+                                        <ul class="ps-0 list-unstyled nlv2_footer_list_menu">
+                                            <li><a href="#" class="nl-font-body nl-fs-18 nl-lh-30">What we are</a></li>
+                                            <li><a href="#" class="nl-font-body nl-fs-18 nl-lh-30">Offer</a></li>
+                                            <li><a href="#" class="nl-font-body nl-fs-18 nl-lh-30">Our History</a></li>
+                                            <li><a href="#" class="nl-font-body nl-fs-18 nl-lh-30">Latest Posts</a></li>
+                                            <li><a href="#" class="nl-font-body nl-fs-18 nl-lh-30">Help Center</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-1 col-xl-1 col-xxl-1 col-md-12 col-sm-12 d-none d-lg-block"></div>
+                                <div class="col-12 col-lg-12 col-xl-3 col-xxl-3 col-md-6 col-sm-12 ps-0">
+                                    <div class="nlv2_footer_top_link nl-mobile-mt nl-footer-padding">
+                                        <h4 class="nl-fs-22 nl-color-white-opacity nl-lh-24 nl-font-heading pb-30">
+                                            Recent Posts</h4>
+                                        <div class="ps-0 list-unstyled nlv2_footer_list_menu">
+                                            <div class="nlv2_footer-blog-post pb-30">
+                                                <p class="nl-fs-14 nl-lh-24 nl-color-white-opacity nl-color-white-opacity nl-font-body">
+                                                    October 19, 2022</p>
+                                                <a href="#"
+                                                   class="nl-fs-18 nl-lh-24 nl-color-white-opacity nl-color-white-opacity nl-font-heading pt-1">Driving
+                                                    Business Excelle</a>
+                                            </div>
+                                            <div class="nlv2_footer-blog-post pb-30">
+                                                <p class="nl-fs-14 nl-lh-24 nl-color-white-opacity nl-color-white-opacity nl-font-body">
+                                                    October 19, 2022</p>
+                                                <a href="#"
+                                                   class="nl-fs-18 nl-lh-24 nl-color-white-opacity nl-color-white-opacity nl-font-heading pt-1">Success
+                                                    Starts Here</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nlv2_footer_bottom d-flex justify-content-between pt-25 pb-25 nl-dw nl-cr">
+                            <p class="nl-f16 nl-fw4 nl-bcl nl-ffb">© Yoursitename 2023 | All Rights Reserved</p>
+                            <div class="nlv2_footer_bottom_link d-flex justify-content-between gap-3 nl-dw nl-ac">
+                                <a href="#" class="nl_animation_text_link nl-f16 nl-fw4 nl-bcl nl-ffb"
+                                   data-replace="Trams &amp; Condition"> <span class="nl_animation_text_linksp">Trams &amp; Condition</span></a>
+                                <a href="#" class="nl_animation_text_link nl-f16 nl-fw4 nl-bcl nl-ffb"
+                                   data-replace="Privacy Policy"> <span
+                                        class="nl_animation_text_linksp">Privacy Policy</span></a>
+                                <a href="#" class="nl_animation_text_link nl-f16 nl-fw4 nl-bcl nl-ffb"
+                                   data-replace="Sitemap">
+                                    <span class="nl_animation_text_linksp">Sitemap</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- Footer Section End -->
+    </div>
+</div>
+<!-- Start script -->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/lity.min.js"></script>
+
+<script src="assets/js/gsap.min.js"></script>
+<script src="assets/js/locomotive-scroll.min.js"></script>
+<script src="assets/js/ScrollTrigger.min.js"></script>
+<script src="assets/js/ScrollToPlugin.min.js"></script>
+<script src="assets/js/SplitText.min.js"></script>
+
+<script src="assets/js/marquee.min.js"></script>
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/appear.js"></script>
+<script src="assets/js/odometer.min.js"></script>
+<script src="assets/js/script.js"></script>
+
+<script src="assets/js/ThemeAnim.js"></script>
+
+</body>
+</html>
